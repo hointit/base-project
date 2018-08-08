@@ -10,10 +10,10 @@ const config = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'build')
+    path: path.resolve(__dirname, 'public')
   },
   devServer: {
-    contentBase: path.join(__dirname, 'build'),
+    contentBase: path.join(__dirname, 'public'),
     host: '192.168.1.120',
     compress: true,
     port: 6969
