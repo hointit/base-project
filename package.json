@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack",
-    "heroku-postbuild": "node server.js"
+    "heroku-postbuild": "webpack && node server.js"
   },
   "keywords": [],
   "author": "",
